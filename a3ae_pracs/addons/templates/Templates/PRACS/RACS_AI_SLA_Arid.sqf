@@ -186,6 +186,7 @@ _sfLoadoutData set ["medVests", ["PRACS_SLA_6B23_Desert"]];
 _sfLoadoutData set ["glVests", ["PRACS_SLA_6B23_6sh92_VOG_Desert"]];
 _sfLoadoutData set ["backpacks", ["rhs_assault_umbts", "rhs_tortila_grey"]];
 _sfLoadoutData set ["helmets", ["PRACS_SLA_6B27M_ess_desert", "PRACS_SLA_6B27M_desert", "rhs_altyn_visordown"]];
+_loadoutData set ["slHat", []];
 _sfLoadoutData set ["sniHats", ["PRACS_SLA_Desert_Booniehat"]];
 _sfLoadoutData set ["NVGs", ["rhs_1PN138"]];
 _sfLoadoutData set ["binoculars", ["rhs_pdu4"]];
@@ -247,6 +248,7 @@ _militaryLoadoutData set ["sniVests", ["rhs_6b2_SVD"]];
 _militaryLoadoutData set ["glVests", ["rhs_6b23_6sh116_vog_od"]];
 _militaryLoadoutData set ["backpacks", ["PRACS_SLA_Desert_RD54", "PRACS_SLA_bandolier"]];
 _militaryLoadoutData set ["helmets", ["PRACS_LWH_6TDES", "PRACS_SLA_Desert_Operator_Cap_hs", "PRACS_SLA_ssh68_cover_D", "PRACS_SLA_ssh68", "PRACS_SLA_pilotka"]];
+_loadoutData set ["slHat", []];
 _militaryLoadoutData set ["sniHats", ["PRACS_SLA_Desert_Booniehat"]];
 _militaryLoadoutData set ["binoculars", ["rhs_tr8_periscope_pip"]];
 
@@ -323,6 +325,7 @@ _militiaLoadoutData set ["vests", ["rhs_belt_holster", "rhs_belt_AK"]];
 _militiaLoadoutData set ["backpacks", ["PRACS_SLA_bandolier_PKM", "PRACS_SLA_bandolier"]];
 _militiaLoadoutData set ["atBackpacks", ["rhs_rpg_6b3"]];
 _militiaLoadoutData set ["helmets", ["PRACS_SLA_NAVY_Soft_Cap", "PRACS_SLA_ssh68_Navy"]];
+_loadoutData set ["slHat", []];
 _militiaLoadoutData set ["sniHats", ["PRACS_SLA_Booniehat_NAVY"]];
 
 _militiaLoadoutData set ["rifles", [

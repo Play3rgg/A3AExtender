@@ -182,6 +182,7 @@ _sfLoadoutData set ["medVests", ["PRACS_CIRAS_GAL_medic", "PRACS_CIRAS_G3_medic"
 _sfLoadoutData set ["glVests", ["PRACS_CIRAS_grenadier", "PRACS_CIRAS_grenadier_SF"]];
 _sfLoadoutData set ["backpacks", ["B_Kitbag_rgr", "B_AssaultPack_rgr"]];
 _sfLoadoutData set ["helmets", ["PRACS_LWH", "PRACS_LWH_ESS", "PRACS_LWH_HS"]];
+_sfloadoutData set ["slHat", ["PRACS_Royal_Fusilier_beret"]];
 _sfLoadoutData set ["sniHats", ["PRACS_Booniehat_HS_SDPM"]];
 _sfLoadoutData set ["NVGs", ["rhsusf_ANPVS_14"]];
 _sfLoadoutData set ["binoculars", ["rhsusf_bino_lrf_Vector21"]];
@@ -314,6 +315,7 @@ _militaryLoadoutData set ["sniVests", ["PRACS_C_CIRAS"]];
 _militaryLoadoutData set ["glVests", ["PRACS_C_CIRAS_G3_grenadier"]];
 _militaryLoadoutData set ["backpacks", ["B_Kitbag_cbr", "B_AssaultPack_cbr"]];
 _militaryLoadoutData set ["helmets", ["PRACS_LWH_6TDES", "PRACS_LWH_HS_6TDES", "PRACS_LWH_ESS_6TDES"]];
+_militaryLoadoutData set ["slHat", ["PRACS_1st_Infantry_beret"]];
 _militaryLoadoutData set ["sniHats", ["PRACS_Booniehat_HS_6TDES"]];
 _militaryLoadoutData set ["binoculars", ["rhsusf_bino_m24_ARD"]];
 
@@ -412,6 +414,7 @@ _militiaLoadoutData set ["vests", ["PRACS_O_CIRAS", "PRACS_SIS_Chestrig"]];
 _militiaLoadoutData set ["backpacks", ["PRACS_Assault_pack", "B_TacticalPack_oli"]];
 _militiaLoadoutData set ["atBackpacks", ["B_Kitbag_rgr"]];
 _militiaLoadoutData set ["helmets", ["PRACS_Patrol_SMAR_Cap", "H_Cap_oli", "H_Cap_oli_hs"]];
+_militiaLoadoutData set ["slHat", ["PRACS_SNG_beret"]];
 _militiaLoadoutData set ["sniHats", ["PRACS_Booniehat_HS_SMAR"]];
 
 _militiaLoadoutData set ["rifles", [
