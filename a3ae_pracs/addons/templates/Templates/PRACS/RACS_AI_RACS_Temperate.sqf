@@ -208,10 +208,10 @@ _sfLoadoutData set ["rifles", [
 ["rhs_weap_hk416d145", "rhsusf_acc_nt4_black", "rhsusf_acc_anpeq15_bk_top", "rhsusf_acc_g33_xps3", ["rhs_mag_30Rnd_556x45_M855A1_PMAG"], [], "rhsusf_acc_grip3"],
 ["rhs_weap_hk416d145", "rhsusf_acc_nt4_black", "rhsusf_acc_anpeq15_bk", "rhsusf_acc_ACOG2", ["rhs_mag_30Rnd_556x45_M855_PMAG"], [], "rhsusf_acc_kac_grip"],
 ["rhs_weap_hk416d145", "rhsusf_acc_nt4_black", "rhsusf_acc_anpeq15_wmx", "rhsusf_acc_eotech_552", ["rhs_mag_30Rnd_556x45_Mk318_PMAG"], [], "rhsusf_acc_rvg_blk"],
-["rhs_weap_hk416d145_wd", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side_bk", "rhsusf_acc_eotech_552_d", ["rhs_mag_30Rnd_556x45_Mk262_PMAG"], [], "rhsusf_acc_grip2"],
-["rhs_weap_hk416d145_wd", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15_bk_top", "rhsusf_acc_ACOG2_USMC", ["rhs_mag_30Rnd_556x45_Mk318_PMAG"], [], "rhsusf_acc_grip2_wd"],
-["rhs_weap_hk416d145_wd_2", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15_bk", "rhsusf_acc_g33_T1", ["rhs_mag_30Rnd_556x45_M855_PMAG"], [], "rhsusf_acc_grip1"],
-["rhs_weap_hk416d145_wd_2", "rhsusf_acc_aac_762sdn6_silencer", "", "rhsusf_acc_eotech_552_wd", ["rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red"], [], "rhsusf_acc_kac_grip"]
+["rhs_weap_hk416d145_wd", "rhsusf_acc_nt4_black", "rhsusf_acc_anpeq15side_bk", "rhsusf_acc_eotech_552_d", ["rhs_mag_30Rnd_556x45_Mk262_PMAG"], [], "rhsusf_acc_grip2"],
+["rhs_weap_hk416d145_wd", "rhsusf_acc_nt4_black", "rhsusf_acc_anpeq15_bk_top", "rhsusf_acc_ACOG2_USMC", ["rhs_mag_30Rnd_556x45_Mk318_PMAG"], [], "rhsusf_acc_grip2_wd"],
+["rhs_weap_hk416d145_wd_2", "rhsusf_acc_nt4_black", "rhsusf_acc_anpeq15_bk", "rhsusf_acc_g33_T1", ["rhs_mag_30Rnd_556x45_M855_PMAG"], [], "rhsusf_acc_grip1"],
+["rhs_weap_hk416d145_wd_2", "rhsusf_acc_nt4_black", "", "rhsusf_acc_eotech_552_wd", ["rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red"], [], "rhsusf_acc_kac_grip"]
 ]];
 _sfLoadoutData set ["carbines", [
 ["PRACS_galil_ACE23_SF", "rhsusf_acc_nt4_black", "", "", ["PRACS_35rd_Galil_M995_mag"], [], ""],
@@ -242,7 +242,7 @@ _sfLoadoutData set ["machineGuns", [
 ["PRACS_M60E4", "PRACS_AAC_supressor_762", "", "rhsusf_acc_su230a", ["rhsusf_50Rnd_762x51_m61_ap"], [], ""],
 ["PRACS_M60E4", "PRACS_AAC_supressor_762", "", "rhsusf_acc_T1_low", ["rhsusf_50Rnd_762x51_m62_tracer"], [], ""],
 ["PRACS_M60E4", "PRACS_AAC_supressor_762", "", "rhsusf_acc_T1_low", ["rhsusf_50Rnd_762x51_m62_tracer"], [], ""],
-["PRACS_M60E4", "PRACS_AAC_supressor_762", "", "rhsusf_acc_g33_xps3", ["rhsusf_100Rnd_556x45_M995_soft_pouch"], [], ""],
+["PRACS_M60E4", "PRACS_AAC_supressor_762", "", "rhsusf_acc_g33_xps3", ["rhsusf_50Rnd_762x51_m61_ap"], [], ""],
 ["PRACS_Mk48_light", "PRACS_AAC_supressor_762", "rhsusf_acc_anpeq15A", "rhsusf_acc_su230a", ["PRACS_100rd_Mk48_AP_Soft_pouch"], [], ""],
 ["PRACS_Mk48_light", "PRACS_AAC_supressor_762", "rhsusf_acc_anpeq16a", "rhsusf_acc_T1_low", ["PRACS_100rd_Mk48_AP_Soft_pouch"], [], ""],
 ["PRACS_Mk48_light", "PRACS_AAC_supressor_762", "rhsusf_acc_M952V", "rhsusf_acc_ACOG_RMR", ["PRACS_100rd_Mk48_M62T_Soft_pouch"], [], ""],
@@ -363,9 +363,6 @@ _militaryLoadoutData set ["sniperRifles", [
 ["rhs_weap_m24sws", "rhsusf_acc_m24_muzzlehider_black", "", "rhsusf_acc_M8541", ["rhsusf_5Rnd_762x51_m118_special_Mag", "rhsusf_5Rnd_762x51_m118_special_Mag", "rhsusf_5Rnd_762x51_m62_Mag"], [], "rhsusf_acc_harris_swivel"],
 ["rhs_weap_m24sws", "rhsusf_acc_m24_muzzlehider_black", "", "rhsusf_acc_premier", ["rhsusf_5Rnd_762x51_m118_special_Mag", "rhsusf_5Rnd_762x51_m118_special_Mag", "rhsusf_5Rnd_762x51_m62_Mag"], [], "rhsusf_acc_harris_swivel"],
 ["rhs_weap_m24sws", "rhsusf_acc_m24_muzzlehider_black", "", "rhsusf_acc_LEUPOLDMK4", ["rhsusf_5Rnd_762x51_m118_special_Mag", "rhsusf_5Rnd_762x51_m118_special_Mag", "rhsusf_5Rnd_762x51_m62_Mag"], [], "rhsusf_acc_harris_swivel"],
-["rhs_weap_m24sws", "", "rhsusf_acc_anpeq15side_bk", "rhsusf_acc_M8541", ["rhsusf_5Rnd_762x51_m118_special_Mag", "rhsusf_5Rnd_762x51_m118_special_Mag", "rhsusf_5Rnd_762x51_m62_Mag"], [], "rhsusf_acc_harris_swivel"],
-["rhs_weap_m24sws", "", "rhsusf_acc_anpeq15side_bk", "rhsusf_acc_premier", ["rhsusf_5Rnd_762x51_m118_special_Mag", "rhsusf_5Rnd_762x51_m118_special_Mag", "rhsusf_5Rnd_762x51_m62_Mag"], [], "rhsusf_acc_harris_swivel"],
-["rhs_weap_m24sws", "", "rhsusf_acc_anpeq15side_bk", "rhsusf_acc_LEUPOLDMK4", ["rhsusf_5Rnd_762x51_m118_special_Mag", "rhsusf_5Rnd_762x51_m118_special_Mag", "rhsusf_5Rnd_762x51_m62_Mag"], [], "rhsusf_acc_harris_swivel"]
 ]];
 _militaryLoadoutData set ["lightATLaunchers", [
 "rhs_weap_m72a7",
