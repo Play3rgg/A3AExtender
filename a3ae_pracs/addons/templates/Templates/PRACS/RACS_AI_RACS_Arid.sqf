@@ -242,7 +242,7 @@ _sfLoadoutData set ["machineGuns", [
 ["PRACS_M60E4", "PRACS_AAC_supressor_762", "", "rhsusf_acc_su230a", ["rhsusf_50Rnd_762x51_m61_ap"], [], ""],
 ["PRACS_M60E4", "PRACS_AAC_supressor_762", "", "rhsusf_acc_T1_low", ["rhsusf_50Rnd_762x51_m62_tracer"], [], ""],
 ["PRACS_M60E4", "PRACS_AAC_supressor_762", "", "rhsusf_acc_T1_low", ["rhsusf_50Rnd_762x51_m62_tracer"], [], ""],
-["PRACS_M60E4", "PRACS_AAC_supressor_762", "", "rhsusf_acc_g33_xps3", ["rhsusf_100Rnd_556x45_M995_soft_pouch"], [], ""],
+["PRACS_M60E4", "PRACS_AAC_supressor_762", "", "rhsusf_acc_g33_xps3", ["rhsusf_50Rnd_762x51_m61_ap"], [], ""],
 ["PRACS_Mk48_light", "PRACS_AAC_supressor_762", "rhsusf_acc_anpeq15A", "rhsusf_acc_su230a", ["PRACS_100rd_Mk48_AP_Soft_pouch"], [], ""],
 ["PRACS_Mk48_light", "PRACS_AAC_supressor_762", "rhsusf_acc_anpeq16a", "rhsusf_acc_T1_low", ["PRACS_100rd_Mk48_AP_Soft_pouch"], [], ""],
 ["PRACS_Mk48_light", "PRACS_AAC_supressor_762", "rhsusf_acc_M952V", "rhsusf_acc_ACOG_RMR", ["PRACS_100rd_Mk48_M62T_Soft_pouch"], [], ""],
