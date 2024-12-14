@@ -124,7 +124,7 @@ _loadoutData set ["compasses", ["ItemCompass"]];
 _loadoutData set ["radios", ["ItemRadio"]];
 _loadoutData set ["gpses", ["ItemGPS"]];
 _loadoutData set ["NVGs", ["rhs_1PN138"]];
-_loadoutData set ["binoculars", ["rhs_tr8_periscope_pip"]];
+_loadoutData set ["binoculars", ["Binocular"]];
 _loadoutData set ["rangefinders", ["rhs_pdu4"]];
 
 _loadoutData set ["uniforms", []];
@@ -135,7 +135,7 @@ _loadoutData set ["sniVests", []];
 _loadoutData set ["glVests", []];
 _loadoutData set ["vests", []];
 _loadoutData set ["backpacks", []];
-_loadoutData set ["atBackpacks", ["rhs_rpg_6b3"]];
+_loadoutData set ["atBackpacks", ["rhs_rpg_6b2"]];
 _loadoutData set ["helmets", []];
 _loadoutData set ["slHat", []];
 _loadoutData set ["sniHats", []];
@@ -240,17 +240,14 @@ _sfLoadoutData set ["sidearms", [
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
 _militaryLoadoutData set ["uniforms", ["PRACS_SLA_M88_Desert_uniform"]];
 _militaryLoadoutData set ["slUniforms", ["PRACS_SLA_M88_Desert_SL_uniform"]];
-_militaryLoadoutData set ["vests", ["rhs_6b2_chicom", "rhs_6b2_lifchik", "rhs_suspender_AK", "rhs_suspender_AK8_chestrig"]];
-_militaryLoadoutData set ["mgVests", ["rhs_6b2_RPK"]];    
-_militaryLoadoutData set ["medVests", ["rhs_6b2", "rhs_suspender_SKS"]];
-_militaryLoadoutData set ["slVests", ["rhs_6b2_holster"]];
+_militaryLoadoutData set ["vests", ["PRACS_SLA_6b2", "PRACS_SLA_6sh92_Desert"]];
 _militaryLoadoutData set ["sniVests", ["rhs_6b2_SVD"]];
-_militaryLoadoutData set ["glVests", ["rhs_6b23_6sh116_vog_od"]];
+_militaryLoadoutData set ["glVests", ["PRACS_SLA_6sh92_VOG_Desert", "PRACS_SLA_6b2_chicom"]];
+_militaryLoadoutData set ["slVests", ["PRACS_SLA_6sh92_R_Desert", "PRACS_SLA_6b2_Holster"]];
 _militaryLoadoutData set ["backpacks", ["PRACS_SLA_Desert_RD54", "PRACS_SLA_bandolier"]];
-_militaryLoadoutData set ["helmets", ["PRACS_SLA_ssh68_cover_D", "PRACS_SLA_ssh68", "PRACS_SLA_Desert_Soft_Cap"]];
+_militaryLoadoutData set ["helmets", ["PRACS_SLA_ssh68_cover_D", "PRACS_SLA_ssh68_cover_D", "PRACS_SLA_Desert_Soft_Cap"]];
 _militaryloadoutData set ["slHat", ["PRACS_SLA_Guards_Beret"]];
 _militaryLoadoutData set ["sniHats", ["PRACS_SLA_Desert_Booniehat"]];
-_militaryLoadoutData set ["binoculars", ["rhs_tr8_periscope_pip"]];
 
 _militaryLoadoutData set ["slRifles", [
 ["rhs_weap_ak74", "rhs_acc_dtk", "", "", ["rhs_30Rnd_545x39_7N6_AK", "rhs_30Rnd_545x39_AK_green"], [], ""],
@@ -320,11 +317,12 @@ _policeLoadoutData set ["sidearms", [
 
 private _militiaLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
 _militiaLoadoutData set ["uniforms", ["PRACS_SLA_M88_Desert_uniform"]];
-_militiaLoadoutData set ["vests", ["rhs_suspender_AK"]];
-_militiaLoadoutData set ["sniVests", ["rhs_suspender_SKS"]];
+_militiaLoadoutData set ["vests", ["PRACS_SLA_6sh92"]];
+_militiaLoadoutData set ["glVests", ["PRACS_SLA_6sh92_VOG"]];
+_militiaLoadoutData set ["slVests", ["PRACS_SLA_6sh92_R_Desert"]];
 _militiaLoadoutData set ["backpacks", ["PRACS_SLA_bandolier"]];
-_militiaLoadoutData set ["atBackpacks", ["rhs_rpg_6b3"]];
-_militiaLoadoutData set ["helmets", ["PRACS_SLA_Desert_Soft_Cap", "PRACS_SLA_Desert_Soft_Cap", "PRACS_SLA_ssh68_cover_D", "PRACS_SLA_ssh68"]];
+_militiaLoadoutData set ["atBackpacks", ["rhs_rpg_6b2"]];
+_militiaLoadoutData set ["helmets", ["PRACS_SLA_Desert_Soft_Cap", "PRACS_SLA_Desert_Soft_Cap", "PRACS_SLA_ssh68_cover_D"]];
 _militialoadoutData set ["slHat", ["PRACS_SLA_Guards_Beret"]];
 _militiaLoadoutData set ["sniHats", ["PRACS_SLA_Desert_Booniehat"]];
 
@@ -374,6 +372,25 @@ private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
 _pilotLoadoutData set ["uniforms", ["PRACS_SLA_M88_Heli_pilot_uniform"]];
 _pilotLoadoutData set ["vests", ["rhs_vest_pistol_holster"]];
 _pilotLoadoutData set ["helmets", ["rhs_zsh7a_mike_green", "rhs_zsh7a_mike_green_alt"]];
+
+private _officerLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
+_officerLoadoutData set ["uniforms", ["PRACS_SLA_Dress_uniform"]];
+_officerLoadoutData set ["slVests", ["rhs_vest_commander", "rhs_gear_OFF"]];
+_officerLoadoutData set ["slHat", ["PRACS_SLA_Generals_Cap"]];
+_officerLoadoutData set ["backpacks", []];
+_officerLoadoutData set ["facewear", ["G_Squares"]];
+
+_officerLoadoutData set ["slRifles", [
+["rhs_weap_akmn", "rhs_acc_dtkakm", "", "", ["rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer"], [], ""],
+["rhs_weap_aks74n", "rhs_acc_dtk1983", "", "", ["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_AK_green"], [], ""],
+["rhs_weap_ak74n", "rhs_acc_dtk1983", "", "", ["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_AK_green"], [], ""],
+["rhs_weap_aks74n_2", "rhs_acc_dtk1983", "", "", ["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_AK_green"], [], ""],
+["rhs_weap_ak74n_2", "rhs_acc_dtk1983", "", "", ["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_AK_green"], [], ""],
+["rhs_weap_akms", "rhs_acc_dtkakm", "", "", ["rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer"], [], ""],
+["rhs_weap_akms_folded", "rhs_acc_dtkakm", "", "", ["rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer"], [], ""],
+["rhs_weap_aks74un", "rhs_acc_pgs64_74u", "", "", ["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_AK_green"], [], ""],
+["rhs_weap_aks74un_folded", "rhs_acc_pgs64_74u", "", "", ["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_AK_green"], [], ""]
+]];
 
 /////////////////////////////////
 //    Unit Type Definitions    //
@@ -873,7 +890,7 @@ private _unitTypes = [
 
 ["other", [["Pilot", _crewTemplate]], _pilotLoadoutData] call _fnc_generateAndSaveUnitsToTemplate;
 //The following lines are determining the loadout for the unit used in the "kill the official" mission
-["other", [["Official", _squadLeaderTemplate]], _militaryLoadoutData] call _fnc_generateAndSaveUnitsToTemplate;
+["other", [["Official", _squadLeaderTemplate]], _officerLoadoutData] call _fnc_generateAndSaveUnitsToTemplate;
 //The following lines are determining the loadout for the AI used in the "kill the traitor" mission
 ["other", [["Traitor", _traitorTemplate]], _militaryLoadoutData] call _fnc_generateAndSaveUnitsToTemplate;
 //The following lines are determining the loadout for the AI used in the "Invader Punishment" mission
