@@ -186,7 +186,7 @@ _sfLoadoutData set ["medVests", ["PRACS_SLA_6B23_Desert"]];
 _sfLoadoutData set ["glVests", ["PRACS_SLA_6B23_6sh92_VOG_Desert"]];
 _sfLoadoutData set ["backpacks", ["rhs_assault_umbts", "rhs_tortila_grey"]];
 _sfLoadoutData set ["helmets", ["PRACS_SLA_6B27M_ess_desert", "PRACS_SLA_6B27M_desert", "rhs_altyn_visordown"]];
-_loadoutData set ["slHat", []];
+_sfloadoutData set ["slHat", ["PRACS_SLA_Especas_Beret"]];
 _sfLoadoutData set ["sniHats", ["PRACS_SLA_Desert_Booniehat"]];
 _sfLoadoutData set ["NVGs", ["rhs_1PN138"]];
 _sfLoadoutData set ["binoculars", ["rhs_pdu4"]];
@@ -247,8 +247,8 @@ _militaryLoadoutData set ["slVests", ["rhs_6b2_holster"]];
 _militaryLoadoutData set ["sniVests", ["rhs_6b2_SVD"]];
 _militaryLoadoutData set ["glVests", ["rhs_6b23_6sh116_vog_od"]];
 _militaryLoadoutData set ["backpacks", ["PRACS_SLA_Desert_RD54", "PRACS_SLA_bandolier"]];
-_militaryLoadoutData set ["helmets", ["PRACS_LWH_6TDES", "PRACS_SLA_Desert_Operator_Cap_hs", "PRACS_SLA_ssh68_cover_D", "PRACS_SLA_ssh68", "PRACS_SLA_pilotka"]];
-_loadoutData set ["slHat", []];
+_militaryLoadoutData set ["helmets", ["PRACS_SLA_ssh68_cover_D", "PRACS_SLA_ssh68", "PRACS_SLA_Desert_Soft_Cap"]];
+_militaryloadoutData set ["slHat", ["PRACS_SLA_Guards_Beret"]];
 _militaryLoadoutData set ["sniHats", ["PRACS_SLA_Desert_Booniehat"]];
 _militaryLoadoutData set ["binoculars", ["rhs_tr8_periscope_pip"]];
 
@@ -302,31 +302,31 @@ _militaryLoadoutData set ["sidearms", [
 ///////////////////////////////
 
 private _policeLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
-_policeLoadoutData set ["uniforms", ["PRACS_SLA_Dress_O_uniform"]];
-_policeLoadoutData set ["vests", ["rhs_suspender_SKS"]];
-_policeLoadoutData set ["helmets", ["PRACS_SLA_Generals_Cap"]];
-_policeLoadoutData set ["shotGuns", [
-["rhs_weap_Izh18", "", "", "", ["rhsgref_1Rnd_Slug", "rhsgref_1Rnd_00Buck"], [], ""]
-]];
+_policeLoadoutData set ["uniforms", ["PRACS_SLA_Border_Guard_uniform"]];
+_policeLoadoutData set ["vests", ["rhs_belt_AK", "rhs_belt_AK_back"]];
+_policeLoadoutData set ["helmets", ["PRACS_SLA_Border_Guard_Cap"]];
+
 _policeLoadoutData set ["SMGs", [
-["rhs_weap_savz61", "", "", "", [], [], ""],
-["rhs_weap_m3a1", "", "", "", [], [], ""]
+    ["rhs_weap_aks74u", "rhs_acc_pgs64_74u", "", "", ["rhs_30Rnd_545x39_7N6_AK", "rhs_30Rnd_545x39_AK_green"], [], ""],
+    ["rhs_weap_pp2000", "", "", "", ["rhs_mag_9x19mm_7n31_20"], [], ""]
 ]];
+
 _policeLoadoutData set ["sidearms", [
-["rhs_weap_makarov_pm", "", "", "", ["rhs_mag_9x18_8_57N181S"], [], ""]
+    ["rhs_weap_tt33", "", "", "", ["rhs_mag_762x25_8"], [], ""]
 ]];
 ////////////////////////////////
 //    Militia Loadout Data    //
 ////////////////////////////////
 
 private _militiaLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
-_militiaLoadoutData set ["uniforms", ["PRACS_SLA_M88_NAVY_uniform"]];
-_militiaLoadoutData set ["vests", ["rhs_belt_holster", "rhs_belt_AK"]];
-_militiaLoadoutData set ["backpacks", ["PRACS_SLA_bandolier_PKM", "PRACS_SLA_bandolier"]];
+_militiaLoadoutData set ["uniforms", ["PRACS_SLA_M88_Desert_uniform"]];
+_militiaLoadoutData set ["vests", ["rhs_suspender_AK"]];
+_militiaLoadoutData set ["sniVests", ["rhs_suspender_SKS"]];
+_militiaLoadoutData set ["backpacks", ["PRACS_SLA_bandolier"]];
 _militiaLoadoutData set ["atBackpacks", ["rhs_rpg_6b3"]];
-_militiaLoadoutData set ["helmets", ["PRACS_SLA_NAVY_Soft_Cap", "PRACS_SLA_ssh68_Navy"]];
-_loadoutData set ["slHat", []];
-_militiaLoadoutData set ["sniHats", ["PRACS_SLA_Booniehat_NAVY"]];
+_militiaLoadoutData set ["helmets", ["PRACS_SLA_Desert_Soft_Cap", "PRACS_SLA_Desert_Soft_Cap", "PRACS_SLA_ssh68_cover_D", "PRACS_SLA_ssh68"]];
+_militialoadoutData set ["slHat", ["PRACS_SLA_Guards_Beret"]];
+_militiaLoadoutData set ["sniHats", ["PRACS_SLA_Desert_Booniehat"]];
 
 _militiaLoadoutData set ["rifles", [
 ["rhs_weap_m92", "", "", "", ["rhssaf_30Rnd_762x39mm_M67"], [], ""],
@@ -367,11 +367,11 @@ _crewLoadoutData set ["uniforms", ["PRACS_SLA_M88_Tanker_uniform"]];
 _crewLoadoutData set ["vests", ["rhs_6sh46"]];
 _crewLoadoutData set ["helmets", ["rhs_tsh4", "rhs_tsh4_bala", "rhs_tsh4_ess_bala"]];
 _crewLoadoutData set ["carbines", [
-["rhs_weap_aks74u", "", "", "", ["rhs_30Rnd_545x39_7N10_AK"], [], ""]
+["rhs_weap_aks74u", "rhs_acc_pgs64_74u", "", "", ["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6_AK", "rhs_30Rnd_545x39_AK_green"], [], ""]
 ]];
 
 private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
-_pilotLoadoutData set ["uniforms", ["PRACS_SLA_M88_Heli_crew_uniform"]];
+_pilotLoadoutData set ["uniforms", ["PRACS_SLA_M88_Heli_pilot_uniform"]];
 _pilotLoadoutData set ["vests", ["rhs_vest_pistol_holster"]];
 _pilotLoadoutData set ["helmets", ["rhs_zsh7a_mike_green", "rhs_zsh7a_mike_green_alt"]];
 
