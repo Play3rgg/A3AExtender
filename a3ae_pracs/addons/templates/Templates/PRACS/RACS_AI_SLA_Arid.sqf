@@ -238,8 +238,8 @@ _sfLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
-_militaryLoadoutData set ["uniforms", ["PRACS_SLA_M88_Desert_uniform", "PRACS_SLA_M88_Desert_uniform"]];
-_militaryLoadoutData set ["slUniforms", ["PRACS_SLA_M88_Desert_C_uniform", "PRACS_SLA_M88_Desert_COL_uniform"]];
+_militaryLoadoutData set ["uniforms", ["PRACS_SLA_M88_Desert_uniform"]];
+_militaryLoadoutData set ["slUniforms", ["PRACS_SLA_M88_Desert_SL_uniform"]];
 _militaryLoadoutData set ["vests", ["rhs_6b2_chicom", "rhs_6b2_lifchik", "rhs_suspender_AK", "rhs_suspender_AK8_chestrig"]];
 _militaryLoadoutData set ["mgVests", ["rhs_6b2_RPK"]];    
 _militaryLoadoutData set ["medVests", ["rhs_6b2", "rhs_suspender_SKS"]];
