@@ -59,11 +59,11 @@
 ["uavsPortable", ["O_UAV_01_F"]] call _fnc_saveToTemplate;
 
 //Config special vehicles - militia vehicles are mostly used in the early game, police cars are being used by troops around cities -- Example:
-["vehiclesMilitiaLightArmed", ["PRACS_SLA_UAZ_DSHKM", "PRACS_SLA_UAZ_SPG9"]] call _fnc_saveToTemplate;
-["vehiclesMilitiaTrucks", ["PRACS_SLA_URAL_Open"]] call _fnc_saveToTemplate;
+["vehiclesMilitiaLightArmed", ["PRACS_SLA_UAZ_DSHKM", "PRACS_SLA_UAZ_SPG9", "PRACS_SLA_BRDM_HQ_PKT"]] call _fnc_saveToTemplate;
+["vehiclesMilitiaTrucks", ["PRACS_SLA_URAL_Open", "PRACS_SLA_MTLB"]] call _fnc_saveToTemplate;
 ["vehiclesMilitiaCars", ["PRACS_SLA_UAZ"]] call _fnc_saveToTemplate;
 
-["vehiclesPolice", ["B_GEN_Offroad_01_gen_F"]] call _fnc_saveToTemplate;
+["vehiclesPolice", ["PRACS_SLA_UAZ_open_Border_guard", "PRACS_SLA_URAL_BG", "PRACS_SLA_BTR40_BG"]] call _fnc_saveToTemplate;
 
 ["staticMGs", ["PRACS_SLA_DShK"]] call _fnc_saveToTemplate;
 ["staticAT", ["PRACS_SLA_9k115", "PRACS_SLA_SPG9M_tripod", "PRACS_SLA_SPG9_tripod"]] call _fnc_saveToTemplate;
