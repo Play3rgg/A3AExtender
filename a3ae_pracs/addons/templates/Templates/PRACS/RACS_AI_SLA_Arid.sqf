@@ -250,7 +250,6 @@ private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch 
 _militaryLoadoutData set ["uniforms", ["PRACS_SLA_M88_Desert_uniform"]];
 _militaryLoadoutData set ["slUniforms", ["PRACS_SLA_M88_Desert_SL_uniform"]];
 _militaryLoadoutData set ["vests", ["PRACS_SLA_6b2", "PRACS_SLA_6sh92_Desert"]];
-_militaryLoadoutData set ["sniVests", ["rhs_6b2_SVD"]];
 _militaryLoadoutData set ["glVests", ["PRACS_SLA_6sh92_VOG_Desert", "PRACS_SLA_6b2_chicom"]];
 _militaryLoadoutData set ["slVests", ["PRACS_SLA_6sh92_R_Desert", "PRACS_SLA_6b2_Holster"]];
 _militaryLoadoutData set ["backpacks", ["PRACS_SLA_Desert_RD54", "PRACS_SLA_bandolier"]];
@@ -375,7 +374,7 @@ _militiaLoadoutData set ["rifles", [
 ["rhs_weap_ak74_3","rhs_acc_dtk1983","rhs_acc_2dpZenit","",["rhs_30Rnd_545x39_7N6M_green_AK", "rhs_30Rnd_545x39_7N6_AK"],[],""]
 ]];
 _militiaLoadoutData set ["carbines", [
-["rhs_weap_aks74u","rhs_acc_dtk1983","","",["rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""]
+["rhs_weap_aks74u","rhs_acc_pgs64_74un","","",["rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""]
 ]];
 _militiaLoadoutData set ["grenadeLaunchers", [
 ["rhs_weap_ak74_gp25","rhs_acc_dtk1983","","",["rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],["rhs_VOG25", "rhs_VOG25P", "rhs_VG40OP_white", "rhs_VG40OP_red", "rhs_GDM40"],""],
@@ -384,7 +383,7 @@ _militiaLoadoutData set ["grenadeLaunchers", [
 ["rhs_weap_akm_gp25", "rhs_acc_dtkakm", "", "", ["rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer"], ["rhs_VOG25", "rhs_VOG25P", "rhs_VG40OP_white", "rhs_VG40OP_red", "rhs_GDM40"], ""]
 ]];
 _militiaLoadoutData set ["SMGs", [
-["rhs_weap_aks74u","rhs_acc_dtk1983","","",["rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""]
+["rhs_weap_aks74u","rhs_acc_pgs64_74un","","",["rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""]
 ]];
 _militiaLoadoutData set ["machineGuns", [
 ["rhs_weap_pkm","","","",["rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR_green"],[],""],
