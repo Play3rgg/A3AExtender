@@ -373,7 +373,7 @@ _militaryLoadoutData set ["lightATLaunchers", [
 ]];
 _militaryLoadoutData set ["ATLaunchers", [
 ["PRACS_SAAWS", "", "", "", ["rhs_mag_maaws_HEAT", "rhs_mag_maaws_HE", "rhs_mag_maaws_HEDP"], [], ""],
-["PRACS_SAAWS", "", "", "", ["rhs_mag_maaws_HEDP", "rhs_mag_maaws_HEDP", "rhs_mag_maaws_HE"], [""],""]
+["PRACS_SAAWS", "", "", "", ["rhs_mag_maaws_HEDP", "rhs_mag_maaws_HEDP", "rhs_mag_maaws_HE"], [],""]
 ]];
 _militaryLoadoutData set ["missileATLaunchers", [
 ["rhs_weap_fgm148", "", "", "", ["rhs_fgm148_magazine_AT"], [], ""]

@@ -260,7 +260,7 @@ _militaryLoadoutData set ["sniHats", ["PRACS_SLA_Desert_Booniehat"]];
 _militaryLoadoutData set ["slRifles", [
 ["rhs_weap_ak74n_gp25","rhs_acc_dtk1983","","rhs_acc_1p78",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],["rhs_VOG25", "rhs_VOG25P", "rhs_VG40OP_white", "rhs_VG40OP_red", "rhs_GDM40"],""],
 ["rhs_weap_ak74n","rhs_acc_dtk1983","rhs_acc_2dpZenit","rhs_acc_1p78",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""],
-["rhs_weap_akmn_gp25","rhs_acc_dtkakm","rhs_acc_2dpZenit","rhs_acc_1p78",["rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer"],["rhs_VOG25", "rhs_VOG25P", "rhs_VG40OP_white", "rhs_VG40OP_red", "rhs_GDM40"],""],
+["rhs_weap_akmn_gp25","rhs_acc_dtkakm","","rhs_acc_1p78",["rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer"],["rhs_VOG25", "rhs_VOG25P", "rhs_VG40OP_white", "rhs_VG40OP_red", "rhs_GDM40"],""],
 ["rhs_weap_aks74n_gp25","rhs_acc_dtk1983","","rhs_acc_1p78",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],["rhs_VOG25", "rhs_VOG25P", "rhs_VG40OP_white", "rhs_VG40OP_red", "rhs_GDM40"],""],
 ["rhs_weap_aks74n","rhs_acc_dtk1983","rhs_acc_2dpZenit","rhs_acc_1p78",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""]
 ]];
