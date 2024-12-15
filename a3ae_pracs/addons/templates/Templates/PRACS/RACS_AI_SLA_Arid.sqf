@@ -195,14 +195,14 @@ _sfLoadoutData set ["binoculars", ["rhs_pdu4"]];
 _sfLoadoutData set ["slRifles", [
 ["rhs_weap_ak74m_gp25_npz","rhs_acc_dtk4short","","rhsusf_acc_g33_xps3",["rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N10_AK"],["rhs_VG40TB", "rhs_VOG25P", "rhs_VG40OP_white", "rhs_GDM40"],""],
 ["rhs_weap_ak74m_gp25_npz","rhs_acc_tgpa","","rhsusf_acc_g33_xps3",["rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N10_AK"],["rhs_VG40TB", "rhs_VOG25P", "rhs_VG40OP_white", "rhs_GDM40"],""],
-["rhs_weap_ak105_npz","rhs_acc_tgpa","rhs_acc_perst1ik","rhsusf_acc_g33_xps3",["rhs_60Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK"],[],""],
-["rhs_weap_ak105_npz","rhs_acc_dtk4short","rhs_acc_perst1ik","rhsusf_acc_g33_xps3",["rhs_60Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK"],[],""]
+["rhs_weap_ak105_npz","rhs_acc_tgpa","rhs_acc_perst1ik","rhsusf_acc_g33_xps3",["rhs_60Rnd_545X39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK"],[],""],
+["rhs_weap_ak105_npz","rhs_acc_dtk4short","rhs_acc_perst1ik","rhsusf_acc_g33_xps3",["rhs_60Rnd_545X39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK"],[],""]
 ]];
 _sfLoadoutData set ["rifles", [
-["rhs_weap_ak105_npz","rhs_acc_dtk4short","rhs_acc_perst1ik","rhs_acc_ekp8_18",["rhs_60Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK"],[],""],
-["rhs_weap_ak105_npz","rhs_acc_dtk4short","rhs_acc_perst1ik","rhs_acc_okp7_picatinny",["rhs_60Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK"],[],""],
-["rhs_weap_ak105_npz","rhs_acc_tgpa","rhs_acc_perst1ik","rhs_acc_ekp8_18",["rhs_60Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK"], [], ""],
-["rhs_weap_ak105_npz","rhs_acc_tgpa","rhs_acc_perst1ik","rhs_acc_okp7_picatinny",["rhs_60Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK"], [], ""],
+["rhs_weap_ak105_npz","rhs_acc_dtk4short","rhs_acc_perst1ik","rhs_acc_ekp8_18",["rhs_60Rnd_545X39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK"],[],""],
+["rhs_weap_ak105_npz","rhs_acc_dtk4short","rhs_acc_perst1ik","rhs_acc_okp7_picatinny",["rhs_60Rnd_545X39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK"],[],""],
+["rhs_weap_ak105_npz","rhs_acc_tgpa","rhs_acc_perst1ik","rhs_acc_ekp8_18",["rhs_60Rnd_545X39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK"], [], ""],
+["rhs_weap_ak105_npz","rhs_acc_tgpa","rhs_acc_perst1ik","rhs_acc_okp7_picatinny",["rhs_60Rnd_545X39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK"], [], ""],
 ["rhs_weap_ak105_npz","rhs_acc_tgpa","rhs_acc_perst1ik","rhsusf_acc_g33_xps3",["rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK"],[],""],
 ["rhs_weap_ak105_npz","rhs_acc_dtk4short","rhs_acc_perst1ik","rhsusf_acc_g33_xps3",["rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_7N22_AK"],[],""]
 ]];
@@ -299,8 +299,8 @@ _militaryLoadoutData set ["grenadeLaunchers", [
 ["rhs_weap_ak74n_gp25","rhs_acc_dtk1983","","rhs_acc_okp7_dovetail",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],["rhs_VOG25", "rhs_VOG25P", "rhs_VG40OP_white", "rhs_VG40OP_red", "rhs_GDM40"],""]
 ]];
 _militaryLoadoutData set ["machineGuns", [
-["rhs_weap_rpk74m","rhs_acc_dtkrpk","","",["rhs_45Rnd_545X39_7N10_AK", "rhs_45Rnd_545X39_7N6M_AK", "rhs_45Rnd_545X39_AK_green"],[],""],
-["rhs_weap_rpk74m","rhs_acc_dtkrpk","","rhs_acc_pkas",["rhs_45Rnd_545X39_7N10_AK", "rhs_45Rnd_545X39_7N6M_AK", "rhs_45Rnd_545X39_AK_green"],[],""],
+["rhs_weap_rpk74m","rhs_acc_dtkrpk","","",["rhs_45Rnd_545X39_7N10_AK", "rhs_45Rnd_545X39_7N6M_AK", "rhs_45Rnd_545X39_AK_Green"],[],""],
+["rhs_weap_rpk74m","rhs_acc_dtkrpk","","rhs_acc_pkas",["rhs_45Rnd_545X39_7N10_AK", "rhs_45Rnd_545X39_7N6M_AK", "rhs_45Rnd_545X39_AK_Green"],[],""],
 ["rhs_weap_pkm","","","",["rhs_100Rnd_762x54mmR_7BZ3", "rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR_green"],[],""]
 ]];
 _militaryLoadoutData set ["marksmanRifles", [
