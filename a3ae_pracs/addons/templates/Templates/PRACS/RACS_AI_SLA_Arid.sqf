@@ -18,21 +18,22 @@
 ["equipmentBox", "Box_NATO_Equip_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
 
 ["vehiclesBasic", ["B_Quadbike_01_F"]] call _fnc_saveToTemplate;
-["vehiclesLightUnarmed", ["PRACS_SLA_UAZ_open", "PRACS_SLA_UAZ", "PRACS_SLA_BTR40"]] call _fnc_saveToTemplate;
-["vehiclesLightArmed", ["PRACS_SLA_UAZ_DSHKM", "PRACS_SLA_UAZ_AGS", "PRACS_SLA_UAZ_AT", "PRACS_SLA_UAZ_SPG9", "PRACS_SLA_BTR40_NSV", "PRACS_SLA_BTR40_AGS", "PRACS_SLA_BTR40_AT", "PRACS_SLA_Ural_S60", "PRACS_SLA_Ural_ZPU4", "PRACS_SLA_BRDM"]] call _fnc_saveToTemplate;
-["vehiclesTrucks", ["PRACS_SLA_URAL_Open", "PRACS_SLA_URAL"]] call _fnc_saveToTemplate;
+["vehiclesLightUnarmed", ["PRACS_SLA_UAZ_open", "PRACS_SLA_UAZ", "PRACS_SLA_BTR40", "PRACS_SLA_BTR40"]] call _fnc_saveToTemplate;
+["vehiclesLightArmed", ["PRACS_SLA_UAZ_DSHKM", "PRACS_SLA_UAZ_AGS", "PRACS_SLA_UAZ_AT", "PRACS_SLA_UAZ_SPG9", "PRACS_SLA_Tigr", "PRACS_SLA_BTR40_NSV", "PRACS_SLA_BTR40_AGS", "PRACS_SLA_BRDM", "PRACS_SLA_BRDM_HQ_PKT", "PRACS_SLA_BTR40_AT", "PRACS_SLA_URAL_Zu23", "PRACS_SLA_Ural_S60", "PRACS_SLA_Ural_ZPU4"]] call _fnc_saveToTemplate;
+["vehiclesTrucks", ["PRACS_SLA_URAL_Open", "PRACS_SLA_URAL", "PRACS_SLA_MTLB"]] call _fnc_saveToTemplate;
 ["vehiclesCargoTrucks", ["PRACS_SLA_Ural_flat_bed"]] call _fnc_saveToTemplate;
-["vehiclesAmmoTrucks", ["PRACS_SLA_Ural_Ammo"]] call _fnc_saveToTemplate;
+["vehiclesAmmoTrucks", ["PRACS_SLA_Ural_Ammo", "PRACS_SLA_MTLB_AMMO"]] call _fnc_saveToTemplate;
 ["vehiclesRepairTrucks", ["PRACS_SLA_URAL_Repair"]] call _fnc_saveToTemplate;
 ["vehiclesFuelTrucks", ["PRACS_SLA_URAL_Fuel"]] call _fnc_saveToTemplate;
-["vehiclesMedical", ["PRACS_SLA_Ural_AMB"]] call _fnc_saveToTemplate;
-["vehiclesLightAPCs", ["PRACS_SLA_Type63", "PRACS_SLA_Type63_AGS", "PRACS_SLA_BTR60"]] call _fnc_saveToTemplate;
+["vehiclesMedical", ["PRACS_SLA_Ural_AMB", "PRACS_SLA_MTLB_AMB"]] call _fnc_saveToTemplate;
+["vehiclesLightAPCs", ["PRACS_SLA_Type63", "PRACS_SLA_Type63_AGS", "PRACS_SLA_BTR60", "PRACS_SLA_MTLB_S60", "PRACS_SLA_MTLB_ZU23", "PRACS_SLA_Type63_ADA", "PRACS_SLA_BRDM_ATGM", "PRACS_SLA_Type63_AT"]] call _fnc_saveToTemplate;
 ["vehiclesAPCs", ["PRACS_SLA_BMP1"]] call _fnc_saveToTemplate;
 ["vehiclesIFVs", ["PRACS_SLA_BMP2"]] call _fnc_saveToTemplate;
-["vehiclesTanks", ["PRACS_SLA_T72B","PRACS_SLA_T72BV"]] call _fnc_saveToTemplate;
-["vehiclesAA", ["PRACS_SLA_ZSU23","PRACS_SLA_MTLB_S60","PRACS_SLA_MTLB_ZU23","PRACS_SLA_Type63_ADA","PRACS_SLA_2S6M_Tunguska"]] call _fnc_saveToTemplate;
+["vehicleslightTanks", ["PRACS_SLA_BMD1"]] call _fnc_saveToTemplate;
+["vehiclesTanks", ["PRACS_SLA_T72B", "PRACS_SLA_T72BV"]] call _fnc_saveToTemplate;
+["vehiclesAA", ["PRACS_SLA_SA13", "PRACS_SLA_SA17", "PRACS_SLA_SA8", "PRACS_SLA_SA9", "PRACS_SLA_ZSU23"]] call _fnc_saveToTemplate;
 
-["vehiclesTransportBoats", ["PRACS_SLA_Zodiac"]] call _fnc_saveToTemplate;
+["vehiclesTransportBoats", ["PRACS_SLA_GoFast"]] call _fnc_saveToTemplate;
 ["vehiclesGunBoats", ["PRACS_SLA_GoFast_gun"]] call _fnc_saveToTemplate;
 ["vehiclesAmphibious", ["PRACS_SLA_BMP1", "PRACS_SLA_BRDM"]] call _fnc_saveToTemplate;
 
@@ -42,8 +43,8 @@
 ["vehiclesAirPatrol", ["PRACS_SLA_Z11W"]] call _fnc_saveToTemplate;
 
 ["vehiclesHelisLight", ["PRACS_SLA_Z11W_B", "PRACS_SLA_Z11W_B2", "PRACS_SLA_Z11W"]] call _fnc_saveToTemplate;
-["vehiclesHelisTransport", ["PRACS_SLA_Mi8amt"]] call _fnc_saveToTemplate;
-["vehiclesHelisLightAttack", ["PRACS_SLA_Z11W_ATK", "PRACS_SLA_Mi17Sh", "PRACS_SLA_Mi17Sh_UPK", "PRACS_SLA_Z11W_ATK2"]] call _fnc_saveToTemplate; 
+["vehiclesHelisTransport", ["PRACS_SLA_Z11W", "PRACS_SLA_Mi8amt"]] call _fnc_saveToTemplate;
+["vehiclesHelisLightAttack", ["PRACS_SLA_Z11W_ATK", "PRACS_SLA_Z11W_ATK2", "PRACS_SLA_Mi17Sh", "PRACS_SLA_Mi17Sh_UPK"]] call _fnc_saveToTemplate; 
 ["vehiclesHelisAttack", ["PRACS_SLA_Mi24D", "PRACS_SLA_Mi24V_UPK"]] call _fnc_saveToTemplate;
 
 ["vehiclesArtillery", ["PRACS_SLA_2s1", "PRACS_SLA_2S3"]] call _fnc_saveToTemplate;        
@@ -51,6 +52,8 @@
 ["PRACS_SLA_2s1", ["rhs_mag_3of56_35"]],
 ["PRACS_SLA_2S3", ["rhs_mag_HE_2a33"]]
 ]] call _fnc_saveToTemplate;
+
+// "PRACS_SLA_2B14", "PRACS_RM70", "PRACS_SLA_M46"
 
 ["uavsAttack", ["O_UAV_02_dynamicLoadout_F"]] call _fnc_saveToTemplate;     
 ["uavsPortable", ["O_UAV_01_F"]] call _fnc_saveToTemplate;
@@ -63,8 +66,8 @@
 ["vehiclesPolice", ["B_GEN_Offroad_01_gen_F"]] call _fnc_saveToTemplate;
 
 ["staticMGs", ["PRACS_SLA_DShK"]] call _fnc_saveToTemplate;
-["staticAT", ["PRACS_SLA_9k115", "PRACS_SLA_SPG9M_tripod"]] call _fnc_saveToTemplate;
-["staticAA", ["PRACS_SLA_Igla_pod"]] call _fnc_saveToTemplate;
+["staticAT", ["PRACS_SLA_9k115", "PRACS_SLA_SPG9M_tripod", "PRACS_SLA_SPG9_tripod"]] call _fnc_saveToTemplate;
+["staticAA", ["PRACS_SLA_Igla_pod", "PRACS_SLA_ZPU4", "PRACS_SLA_ZU23", "PRACS_SLA_S60"]] call _fnc_saveToTemplate;
 ["staticMortars", ["rhs_2b14_82mm_msv"]] call _fnc_saveToTemplate;
 
 ["mortarMagazineHE", "rhs_mag_3vo18_10"] call _fnc_saveToTemplate;
