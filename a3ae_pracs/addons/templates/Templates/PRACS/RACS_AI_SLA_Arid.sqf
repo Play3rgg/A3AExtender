@@ -183,8 +183,8 @@ private _sfLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and sh
 _sfLoadoutData set ["uniforms", ["PRACS_SLA_M88_Especas_desert_uniform"]];
 _sfLoadoutData set ["vests", ["PRACS_SLA_6B23_6sh92_L_Radio_Desert", "PRACS_SLA_6B23_6sh92_L_Headset_Desert"]];    
 _sfLoadoutData set ["medVests", ["PRACS_SLA_6B23_Desert"]];
+_sfLoadoutData set ["sniVests", ["PRACS_SLA_6B23_6sh92_Desert"]];
 _sfLoadoutData set ["glVests", ["PRACS_SLA_6B23_6sh92_VOG_Desert"]];
-_sfLoadoutData set ["slVests", ["PRACS_SLA_6B23_6sh92_L_Radio_Desert"]];
 _sfLoadoutData set ["backpacks", ["PRACS_SLA_Desert_RD54", "rhs_tortila_grey"]];
 _sfLoadoutData set ["helmets", ["PRACS_SLA_6B27M_ess_desert", "PRACS_SLA_6B27M_desert", "rhs_altyn_visordown"]];
 _sfloadoutData set ["slHat", ["PRACS_SLA_Especas_Beret"]];
@@ -254,7 +254,7 @@ _militaryLoadoutData set ["sniVests", ["rhs_6b2_SVD"]];
 _militaryLoadoutData set ["glVests", ["PRACS_SLA_6sh92_VOG_Desert", "PRACS_SLA_6b2_chicom"]];
 _militaryLoadoutData set ["slVests", ["PRACS_SLA_6sh92_R_Desert", "PRACS_SLA_6b2_Holster"]];
 _militaryLoadoutData set ["backpacks", ["PRACS_SLA_Desert_RD54", "PRACS_SLA_bandolier"]];
-_militaryLoadoutData set ["helmets", ["PRACS_SLA_ssh68_cover_D", "PRACS_SLA_ssh68_cover_D", "PRACS_SLA_Desert_Soft_Cap"]];
+_militaryLoadoutData set ["helmets", ["PRACS_SLA_ssh68_cover_D", "PRACS_SLA_ssh68_cover_D"]];
 _militaryloadoutData set ["slHat", ["PRACS_SLA_Guards_Beret"]];
 _militaryLoadoutData set ["sniHats", ["PRACS_SLA_Desert_Booniehat"]];
 
@@ -283,14 +283,14 @@ _militaryLoadoutData set ["rifles", [
 ["rhs_weap_ak74n","rhs_acc_dtk1983","rhs_acc_2dpZenit","rhs_acc_okp7_dovetail",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""]
 ]];
 _militaryLoadoutData set ["carbines", [
-["rhs_weap_aks74un","rhs_acc_dtk1983","","",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""],
-["rhs_weap_aks74un","rhs_acc_dtk1983","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""],
-["rhs_weap_aks74un","rhs_acc_dtk1983","","rhs_acc_okp7_dovetail",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""]
+["rhs_weap_aks74un","rhs_acc_pgs64_74un","","",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""],
+["rhs_weap_aks74un","rhs_acc_pgs64_74un","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""],
+["rhs_weap_aks74un","rhs_acc_pgs64_74un","","rhs_acc_okp7_dovetail",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""]
 ]];
 _militaryLoadoutData set ["SMGs", [
-["rhs_weap_aks74un","rhs_acc_dtk1983","","",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""],
-["rhs_weap_aks74un","rhs_acc_dtk1983","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""],
-["rhs_weap_aks74un","rhs_acc_dtk1983","","rhs_acc_okp7_dovetail",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""]
+["rhs_weap_aks74un","rhs_acc_pgs64_74un","","",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""],
+["rhs_weap_aks74un","rhs_acc_pgs64_74un","","rhs_acc_pkas",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""],
+["rhs_weap_aks74un","rhs_acc_pgs64_74un","","rhs_acc_okp7_dovetail",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],[],""]
 ]];
 _militaryLoadoutData set ["grenadeLaunchers", [
 ["rhs_weap_ak74n_gp25","rhs_acc_dtk1983","","",["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_7N6M_green_AK"],["rhs_VOG25", "rhs_VOG25P", "rhs_VG40OP_white", "rhs_VG40OP_red", "rhs_GDM40"],""],
@@ -351,7 +351,7 @@ _militiaLoadoutData set ["glVests", ["PRACS_SLA_6sh92_VOG"]];
 _militiaLoadoutData set ["slVests", ["PRACS_SLA_6sh92_R_Desert"]];
 _militiaLoadoutData set ["backpacks", ["PRACS_SLA_bandolier"]];
 _militiaLoadoutData set ["atBackpacks", ["rhs_rpg_6b2"]];
-_militiaLoadoutData set ["helmets", ["PRACS_SLA_Desert_Soft_Cap", "PRACS_SLA_Desert_Soft_Cap", "PRACS_SLA_ssh68_cover_D"]];
+_militiaLoadoutData set ["helmets", ["PRACS_SLA_Desert_Soft_Cap", "PRACS_SLA_ssh68"]];
 _militialoadoutData set ["slHat", ["PRACS_SLA_Guards_Beret"]];
 _militiaLoadoutData set ["sniHats", ["PRACS_SLA_Desert_Booniehat"]];
 
