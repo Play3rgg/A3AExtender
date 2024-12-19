@@ -211,7 +211,7 @@ _sfLoadoutData set ["carbines", [
 ]];
 _sfLoadoutData set ["grenadeLaunchers", [
 ["rhs_weap_ak74mr_gp25","rhs_acc_tgpa","rhs_acc_perst3","rhs_acc_ekp8_18",["rhs_60Rnd_545X39_7N22_AK", "rhs_60Rnd_545X39_7N22_AK", "rhs_30Rnd_545x39_7N22_plum_AK"],["rhs_VG40TB", "rhs_VOG25P", "rhs_VG40OP_white", "rhs_GDM40"],""],
-["rhs_weap_ak74mr_gp25","rhs_acc_tgpa","rhs_acc_perst3","rhsusf_acc_g33_xps3",["rhs_60Rnd_545X39_7N22_AK", "rhs_60Rnd_545X39_7N22_AK", "rhs_30Rnd_545x39_7N22_plum_AK"],["rhs_VG40TB", "rhs_VOG25P", "rhs_VG40OP_white", "rhs_GDM40"],""],
+["rhs_weap_ak74mr_gp25","rhs_acc_tgpa","rhs_acc_perst3","rhsusf_acc_g33_xps3",["rhs_60Rnd_545X39_7N22_AK", "rhs_60Rnd_545X39_7N22_AK", "rhs_30Rnd_545x39_7N22_plum_AK"],["rhs_VG40TB", "rhs_VOG25P", "rhs_VG40OP_white", "rhs_GDM40"],""]
 ]];
 _sfLoadoutData set ["SMGs", [
 ["rhs_weap_aks74u", "rhs_acc_pbs4", "", "", ["rhs_60Rnd_545X39_7U1_AK"], [], ""]
