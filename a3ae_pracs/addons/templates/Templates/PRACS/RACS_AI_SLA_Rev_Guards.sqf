@@ -308,18 +308,17 @@ _militaryLoadoutData set ["sidearms", [
 ///////////////////////////////
 
 private _policeLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
-_policeLoadoutData set ["uniforms", ["PRACS_SLA_Dress_O_uniform"]];
-_policeLoadoutData set ["vests", ["rhs_suspender_SKS"]];
-_policeLoadoutData set ["helmets", ["PRACS_SLA_Generals_Cap"]];
-_policeLoadoutData set ["shotGuns", [
-["rhs_weap_Izh18", "", "", "", ["rhsgref_1Rnd_Slug", "rhsgref_1Rnd_00Buck"], [], ""]
-]];
+_policeLoadoutData set ["uniforms", ["PRACS_SLA_Border_Guard_uniform"]];
+_policeLoadoutData set ["vests", ["rhs_belt_AK", "rhs_belt_AK_back"]];
+_policeLoadoutData set ["helmets", ["PRACS_SLA_Border_Guard_Cap"]];
+
 _policeLoadoutData set ["SMGs", [
-["rhs_weap_savz61", "", "", "", [], [], ""],
-["rhs_weap_m3a1", "", "", "", [], [], ""]
+    ["rhs_weap_aks74u", "rhs_acc_pgs64_74u", "", "", ["rhs_30Rnd_545x39_7N6_AK", "rhs_30Rnd_545x39_AK_green"], [], ""],
+    ["rhs_weap_pp2000", "", "", "", ["rhs_mag_9x19mm_7n31_20"], [], ""]
 ]];
+
 _policeLoadoutData set ["sidearms", [
-["rhs_weap_makarov_pm", "", "", "", ["rhs_mag_9x18_8_57N181S"], [], ""]
+    ["rhs_weap_tt33", "", "", "", ["rhs_mag_762x25_8"], [], ""]
 ]];
 ////////////////////////////////
 //    Militia Loadout Data    //
@@ -394,16 +393,35 @@ _militiaLoadoutData set ["sidearms", ["rhs_weap_makarov_pm"]];
 
 private _crewLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
 _crewLoadoutData set ["uniforms", ["PRACS_SLA_M88_Tanker_uniform"]];
-_crewLoadoutData set ["vests", ["rhs_6sh46"]];
+_crewLoadoutData set ["vests", ["PRACS_SLA_6sh92_R"]];
 _crewLoadoutData set ["helmets", ["rhs_tsh4", "rhs_tsh4_bala", "rhs_tsh4_ess_bala"]];
 _crewLoadoutData set ["carbines", [
-["rhs_weap_aks74u", "", "", "", ["rhs_30Rnd_545x39_7N10_AK"], [], ""]
+["rhs_weap_aks74u", "rhs_acc_pgs64_74u", "", "", ["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6_AK", "rhs_30Rnd_545x39_AK_green"], [], ""]
 ]];
 
 private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
-_pilotLoadoutData set ["uniforms", ["PRACS_SLA_M88_Heli_crew_uniform"]];
+_pilotLoadoutData set ["uniforms", ["PRACS_SLA_M88_Heli_pilot_uniform"]];
 _pilotLoadoutData set ["vests", ["rhs_vest_pistol_holster"]];
 _pilotLoadoutData set ["helmets", ["rhs_zsh7a_mike_green", "rhs_zsh7a_mike_green_alt"]];
+
+private _officerLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
+_officerLoadoutData set ["uniforms", ["PRACS_SLA_Dress_uniform"]];
+_officerLoadoutData set ["slVests", ["rhs_vest_commander", "rhs_gear_OFF"]];
+_officerLoadoutData set ["slHat", ["PRACS_SLA_Generals_Cap"]];
+_officerLoadoutData set ["backpacks", []];
+_officerLoadoutData set ["facewear", ["G_Squares"]];
+
+_officerLoadoutData set ["slRifles", [
+["rhs_weap_akmn", "rhs_acc_dtkakm", "", "", ["rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer"], [], ""],
+["rhs_weap_aks74n", "rhs_acc_dtk1983", "", "", ["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_AK_green"], [], ""],
+["rhs_weap_ak74n", "rhs_acc_dtk1983", "", "", ["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_AK_green"], [], ""],
+["rhs_weap_aks74n_2", "rhs_acc_dtk1983", "", "", ["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_AK_green"], [], ""],
+["rhs_weap_ak74n_2", "rhs_acc_dtk1983", "", "", ["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_AK_green"], [], ""],
+["rhs_weap_akms", "rhs_acc_dtkakm", "", "", ["rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer"], [], ""],
+["rhs_weap_akms_folded", "rhs_acc_dtkakm", "", "", ["rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer"], [], ""],
+["rhs_weap_aks74un", "rhs_acc_pgs64_74u", "", "", ["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_AK_green"], [], ""],
+["rhs_weap_aks74un_folded", "rhs_acc_pgs64_74u", "", "", ["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6M_AK", "rhs_30Rnd_545x39_AK_green"], [], ""]
+]];
 
 /////////////////////////////////
 //    Unit Type Definitions    //
