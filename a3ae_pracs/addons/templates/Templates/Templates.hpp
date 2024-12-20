@@ -37,10 +37,17 @@ class Templates {
         climate[] = {"temperate"};
     };
 
-    class SLA_Rev_Guards : SLA_Arid
+    class SLA_Rev_Guards_Temperate : SLA_Arid
     {
         name = "SLA Revolutionary Guards";
-        file = "RACS_AI_SLA_Rev_Guards";
-        climate[] = {"temperate", "arid"};
+        file = "RACS_AI_SLA_Rev_Guards_Temperate";
+        climate[] = {"temperate"};
+    };
+
+    class SLA_Rev_Guards_Arid : SLA_Rev_Guards_Temperate
+    {
+        name = "SLA Revolutionary Guards";
+        file = "RACS_AI_SLA_Rev_Guards_Temperate";
+        climate[] = {"arid"};
     };
 };
