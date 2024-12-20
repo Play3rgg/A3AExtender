@@ -921,7 +921,7 @@ private _unitTypes = [
 
 ["other", [["Pilot", _crewTemplate]], _pilotLoadoutData] call _fnc_generateAndSaveUnitsToTemplate;
 //The following lines are determining the loadout for the unit used in the "kill the official" mission
-["other", [["Official", _squadLeaderTemplate]], _militaryLoadoutData] call _fnc_generateAndSaveUnitsToTemplate;
+["other", [["Official", _squadLeaderTemplate]], _officerLoadoutData] call _fnc_generateAndSaveUnitsToTemplate;
 //The following lines are determining the loadout for the AI used in the "kill the traitor" mission
 ["other", [["Traitor", _traitorTemplate]], _militaryLoadoutData] call _fnc_generateAndSaveUnitsToTemplate;
 //The following lines are determining the loadout for the AI used in the "Invader Punishment" mission
