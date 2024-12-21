@@ -39,12 +39,14 @@ class Templates {
 
     class SLA_Rev_Guards_Arid : SLA_Arid
     {
+        side = "Inv";
         name = "SLA Guards Arid";
         file = "RACS_AI_SLA_Rev_Guards_Arid";
     };
 
     class SLA_Rev_Guards_Temperate : SLA_Rev_Guards_Arid
     {
+        side = "Inv";
         name = "SLA Guards Temperate";
         file = "RACS_AI_SLA_Rev_Guards_Temperate";
         climate[] = {"temperate"};

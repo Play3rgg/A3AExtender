@@ -185,7 +185,7 @@ _sfLoadoutData set ["uniforms", ["PRACS_SLA_Gorka_desert_uniform"]];
 _sfLoadoutData set ["vests", ["PRACS_SLA_6B23_6sh92_L_Radio_Desert", "PRACS_SLA_6B23_6sh92_L_Headset_Desert"]];    
 _sfLoadoutData set ["medVests", ["PRACS_SLA_6B23_Desert"]];
 _sfLoadoutData set ["glVests", ["PRACS_SLA_6B23_6sh92_VOG_Desert"]];
-_sfLoadoutData set ["backpacks", ["rhs_rk_sht_30_olive", "rhs_tortila_olive"]];
+_sfLoadoutData set ["backpacks", ["rhs_rk_sht_30_olive", "rhs_tortila_grey", "rhs_tortila_grey"]];
 _sfLoadoutData set ["helmets", ["PRACS_SLA_Desert_Soft_Cap", "PRACS_SLA_6B27M_desert", "PRACS_SLA_6B27M_ess_desert", "rhs_altyn_visordown"]];
 _sfloadoutData set ["slHat", ["PRACS_SLA_Guards_Beret"]];
 _sfLoadoutData set ["sniHats", ["PRACS_SLA_Desert_Booniehat"]];
@@ -245,7 +245,7 @@ _militaryLoadoutData set ["vests", ["PRACS_SLA_6B23_6sh92_L_Headset_Desert", "PR
 _militaryLoadoutData set ["mgVests", ["PRACS_SLA_6B23_6sh92_Desert"]];    
 _militaryLoadoutData set ["medVests", ["PRACS_SLA_6B23_Desert"]];
 _militaryLoadoutData set ["sniVests", ["PRACS_SLA_6B23_Desert"]];
-_militaryLoadoutData set ["glVests", ["PRACS_SLA_6B23_6sh92_VOG"]];
+_militaryLoadoutData set ["glVests", ["PRACS_SLA_6B23_6sh92_VOG_Desert"]];
 _militaryLoadoutData set ["backpacks", ["PRACS_SLA_Desert_RD54"]];
 _militaryLoadoutData set ["helmets", ["PRACS_SLA_6B27M_desert", "PRACS_SLA_6B27M_ess_desert", "PRACS_SLA_ssh68_cover_D"]];
 _militaryloadoutData set ["slHat", ["PRACS_SLA_Guards_Beret"]];
@@ -402,6 +402,9 @@ private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
 _pilotLoadoutData set ["uniforms", ["PRACS_SLA_M88_Heli_pilot_uniform"]];
 _pilotLoadoutData set ["vests", ["rhs_vest_pistol_holster"]];
 _pilotLoadoutData set ["helmets", ["rhs_zsh7a_mike_green", "rhs_zsh7a_mike_green_alt"]];
+_pilotLoadoutData set ["carbines", [
+["rhs_weap_aks74u", "rhs_acc_pgs64_74u", "", "", ["rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N6_AK", "rhs_30Rnd_545x39_AK_green"], [], ""]
+]];
 
 private _officerLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
 _officerLoadoutData set ["uniforms", ["PRACS_SLA_Dress_uniform"]];
