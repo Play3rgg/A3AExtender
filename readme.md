@@ -1,2 +1,2 @@
-# 3CB LSM Rebel touch-up
+# 3CB LSM + FIA Rebel touch-up
 Adds in Metis ATGM-pickups and a A-29 Super Tucano
