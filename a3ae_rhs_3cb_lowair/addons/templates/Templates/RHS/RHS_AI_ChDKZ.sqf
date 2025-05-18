@@ -1,7 +1,7 @@
 //////////////////////////
 //   Side Information   //
 //////////////////////////
-
+["attributeLowAir", true] call _fnc_saveToTemplate;             // Use fewer air units in general
 ["name", "ChDKZ"] call _fnc_saveToTemplate;
 ["spawnMarkerName", "ChDKZ support corridor"] call _fnc_saveToTemplate;
 

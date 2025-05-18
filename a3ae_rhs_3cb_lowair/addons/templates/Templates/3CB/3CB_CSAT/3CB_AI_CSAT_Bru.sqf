@@ -1,4 +1,4 @@
-
+["attributeLowAir", true] call _fnc_saveToTemplate;             // Use fewer air units in general
 //////////////////////////
 //   Side Information   //
 //////////////////////////

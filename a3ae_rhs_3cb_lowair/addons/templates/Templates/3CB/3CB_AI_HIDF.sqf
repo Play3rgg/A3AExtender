@@ -1,7 +1,7 @@
 //////////////////////////
 //   Side Information   //
 //////////////////////////
-
+["attributeLowAir", true] call _fnc_saveToTemplate;             // Use fewer air units in general
 ["name", "HIDF"] call _fnc_saveToTemplate;
 ["spawnMarkerName", "HIDF Support Corridor"] call _fnc_saveToTemplate;
 

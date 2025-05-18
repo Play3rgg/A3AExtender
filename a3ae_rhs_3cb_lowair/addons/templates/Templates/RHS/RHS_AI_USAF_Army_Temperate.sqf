@@ -1,7 +1,7 @@
 //////////////////////////
 //   Side Information   //
 //////////////////////////
-
+["attributeLowAir", true] call _fnc_saveToTemplate;             // Use fewer air units in general
 ["name", "US Army"] call _fnc_saveToTemplate;
 ["spawnMarkerName", "US support corridor"] call _fnc_saveToTemplate;
 

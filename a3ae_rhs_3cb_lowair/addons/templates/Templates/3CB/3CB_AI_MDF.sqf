@@ -1,7 +1,7 @@
 //////////////////////////
 //   Side Information   //
 //////////////////////////
-
+["attributeLowAir", true] call _fnc_saveToTemplate;             // Use fewer air units in general
 ["name", "MDF"] call _fnc_saveToTemplate;
 ["spawnMarkerName", "MDF Support corridor"] call _fnc_saveToTemplate;
 

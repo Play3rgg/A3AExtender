@@ -1,7 +1,7 @@
 //////////////////////////
 //   Side Information   //
 //////////////////////////
-
+["attributeLowAir", true] call _fnc_saveToTemplate;             // Use fewer air units in general
 ["name", "Soviets"] call _fnc_saveToTemplate;
 ["spawnMarkerName", "Soviets Support Corridor"] call _fnc_saveToTemplate;
 

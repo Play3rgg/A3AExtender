@@ -1,7 +1,7 @@
 //////////////////////////
 //   Side Information   //
 //////////////////////////
-
+["attributeLowAir", true] call _fnc_saveToTemplate;             // Use fewer air units in general
 ["name", "ION"] call _fnc_saveToTemplate;
 ["spawnMarkerName", "ION Support Corridor"] call _fnc_saveToTemplate;
 

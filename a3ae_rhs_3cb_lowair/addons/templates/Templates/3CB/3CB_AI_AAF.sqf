@@ -1,7 +1,7 @@
 //////////////////////////
 //   Side Information   //
 //////////////////////////
-
+["attributeLowAir", true] call _fnc_saveToTemplate;             // Use fewer air units in general
 ["name", "AAF"] call _fnc_saveToTemplate;
 ["spawnMarkerName", "AAF Support Corridor"] call _fnc_saveToTemplate;
 

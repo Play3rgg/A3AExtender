@@ -1,7 +1,7 @@
 //////////////////////////
 //   Side Information   //
 //////////////////////////
-
+["attributeLowAir", true] call _fnc_saveToTemplate;             // Use fewer air units in general
 ["name", "TKA East"] call _fnc_saveToTemplate;
 ["spawnMarkerName", "TKA East Support corridor"] call _fnc_saveToTemplate;
 
