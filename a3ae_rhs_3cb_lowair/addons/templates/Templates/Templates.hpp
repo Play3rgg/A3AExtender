@@ -1,7 +1,7 @@
 class Templates {
     //************* 3CB Factions ***************************************************
 
-    class 3CBF_Base
+    class 3CBF_Base;
     
     class 3CBF_CSAT_Base : 3CBF_Base
     {
@@ -142,7 +142,7 @@ class Templates {
 
     // ***************************** 3CB BAF *****************************
 
-    class 3CBBAF_Base
+    class 3CBBAF_Base;
     
     class 3CBBAF_Arid : 3CBBAF_Base
     {
@@ -176,7 +176,7 @@ class Templates {
     
     // ***************************** RHS *****************************
 
-    class RHS_Base
+    class RHS_Base;
 
     class RHS_AFRF_Arid : RHS_Base
     {
@@ -300,7 +300,7 @@ class Templates {
     };
 
     
-    class RHS_SAF_Base
+    class RHS_SAF_Base;
    
     class RHS_SAF : RHS_SAF_Base
     {
