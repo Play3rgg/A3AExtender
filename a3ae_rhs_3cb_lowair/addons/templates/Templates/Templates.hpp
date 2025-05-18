@@ -99,6 +99,7 @@ class Templates {
 
     class 3CB_GAF : 3CBF_Base
     {
+        basepath = QPATHTOFOLDER(Templates\3CB);
         side = "Occ";
         flagTexture = "\UK3CB_Factions\addons\UK3CB_Factions_GAF\Flag\GAF_flag_co.paa";
         name = "3CB GAF Temperate";
@@ -113,12 +114,12 @@ class Templates {
     };
     class 3CB_Marines_Temperate : 3CBF_Base
     {
+        basepath = QPATHTOFOLDER(Templates\3CB);
         side = "Occ";
         flagTexture = "a3\data_f\flags\flag_us_co.paa";
         name = "3CB Marines Temperate";
         file = "3CB_AI_Marines_Temperate";
         climate[] = {"temperate"};
-        basepath = QPATHTOFOLDER(Templates\3CB);
     };
     class 3CBF_ION_Arid : 3CBF_Base
     {
