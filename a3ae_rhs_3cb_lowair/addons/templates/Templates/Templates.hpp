@@ -317,7 +317,7 @@ class Templates {
 
 
     // Vanilla
-    class Vanilla_Base
+    class Vanilla_Base;
 
     class Vanilla_CSAT_Arid : Vanilla_Base
     {
