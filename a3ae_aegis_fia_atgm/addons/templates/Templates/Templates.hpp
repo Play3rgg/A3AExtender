@@ -1,5 +1,5 @@
 class Templates {
-    class Aegis_Base
+    class Aegis_Base;
 
     class Aegis_FIA : Aegis_Base
     {
