@@ -5,7 +5,7 @@ class Templates {
     {
         side = "Reb";
         flagTexture = "a3\data_f\flags\flag_fia_co.paa";
-        name = "Aegis FIA";
+        name = "Aegis FIA ATGM";
         file = "Aegis_Reb_FIA";
     };
 
