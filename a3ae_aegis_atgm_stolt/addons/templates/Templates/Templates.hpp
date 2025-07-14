@@ -7,7 +7,7 @@ class Templates {
 
     class Aegis_SDK { // overwrite existing template
         basepath = QPATHTOFOLDER(Templates\Aegis);
-        file = "Aegis_Reb_SDKstolt";
+        file = "Aegis_Reb_SDKstolt1";
     };
 
 };
